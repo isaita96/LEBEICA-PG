@@ -1,0 +1,60 @@
+html,body{
+	height: 100%;
+	margin:30px;
+}
+h1{
+	color:white;
+	text-align:center;
+	font-family: 'Special Elite';
+	font-size: 70pt;
+	letter-spacing: 0.1em;
+}
+body{
+	margin: auto;
+	background: white;
+	image-rendering: auto;
+	text-transform: center;
+	line-height: 10px;
+}
+
+
+.con-papeleria{
+	font-size: 15pt;
+	font-family: 'Didact Gothic';
+	color: black;
+	line-height: 1.5em;
+	text-align: center;
+	margin-right: 800px;
+	image-rendering: auto;
+
+}
+
+.con-maquillaje{
+	font-size: 15pt;
+	font-family: "didact gothic";
+	color: black;
+	line-height: 1.5em;
+	text-align: center;
+	margin-left: 500px;
+	margin-top: 80px;
+	image-rendering: auto;
+
+}
+
+.galeria{
+	
+	float: auto;
+	display:flex;
+	justify-content: space-around;
+	margin:auto;
+	width:100%;
+
+}
+.galeria div{
+	filter:grayscale(1);
+
+}
+.galeria div:hover{
+	filter:grayscale(0);
+	
+}
